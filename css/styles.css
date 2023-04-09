@@ -1,0 +1,394 @@
+:root{
+--colorfondopagina:#FFFFFF;
+--colorheader:#fff;
+--fuenteRaleway:'Raleway', sans-serif;/*fuente de la cabecera de la pagina*/
+--fuentegeneral:'Roboto', sans-serif;/*fuente general para la pagina*/
+}
+
+/* Normalice */
+*{
+box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+margin: 0;
+}
+html{
+box-sizing: border-box;
+}
+*,*::after,*::before{
+box-sizing: inherit;
+}
+address{
+font-style: normal;
+}
+.link{
+text-decoration: none;
+color: inherit;
+}
+.list{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+body{
+width: auto;
+height: auto;
+background-color: var(--colorfondopagina);
+}
+.contenedor{
+max-width:1200px;
+margin: 0 auto;
+}
+.icon_secction{
+    border: #020f1a solid 10px;
+}
+/*Estilos pagina index*/
+/* Header*/
+.header{
+width: 100%;
+height: 80px;
+border-bottom: 1px solid #ECECEC;
+padding: 15px;
+}
+.navegacion-principal{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:baseline;
+}
+ .enlaces-lista li{
+    display:inline-flex;
+    margin-inline: 50px;
+
+}
+
+.webstudio{
+font-family:'Raleway';
+font-style: normal;
+font-weight:bold;
+font-size: 26px;
+line-height: 31px;
+text-align:center;
+letter-spacing: 0.03em;
+color: #2196f3;
+}
+a{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.email-tel a{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: hwb(0 8% 80%);
+}
+/*colocar efecto  pagina activ*/
+.color-activo:hover {
+color:#2196F3;
+}
+.color-activo:focus{
+color: #2196F3;
+}
+.color-activo{
+color: #2196F3;
+}
+a:hover{
+    color: #2196F3;
+}
+a:focus{
+    color:#2196F3;
+}
+/*seccion principal*/
+.seccion-principal{
+width: 100%;
+height: 1000px;
+background-image: url(../images/FondoSeccionPrincipal.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.contenido_seccion_principal{
+width: 100%;
+height: 100%;
+background-color: rgba(47, 48, 58, 0.4);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+h1{
+width: 696px;
+height: 120px;
+padding: 30px;
+font-family:'roboto';
+font-style:normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+line-height: 116%;
+letter-spacing: 0.06em;
+margin-bottom: 40px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.boton-servicio{
+width: 261px;
+height: 50px;
+color: #FFFFFF;
+background-color: #2196f3;
+cursor: pointer;
+font-family: var(--fuentegeneral);
+font-style: bold;
+font-size: 16px;
+line-height: 30px;
+line-height: 160%;
+letter-spacing: 6%;
+border-radius: 4px;
+border: none;
+}
+/*servicios ofrecidos*/
+.servicios{
+width: 100%;
+height: auto;
+
+}
+.cualidades{
+border: #020f1a solid 2px;
+margin-top: 50px;
+margin-bottom: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 10px;
+}
+.val-agregado{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 10px;
+}
+.valor-agregado {
+font-family:'roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+text-align:left;
+}
+.cualidades p{
+font-family: 'roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+text-align:left;
+color: #757575;
+}
+.titulo-servicio{
+align-items: center;
+margin-top: 30px;
+margin-bottom: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+}
+.imagen-producto{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+/*Nuestro equippo*/
+.nuestro-equipo{
+width: 100%;
+height: auto;
+background-color: #F5F4FA;
+}
+.container{
+width: auto;
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 100px;
+}
+.integrante-equipo{
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 94px;
+Font-family: 'Roboto';
+Font-style: Bold;
+Font-size: 36px;
+Line-height: 42px;
+Line-height: 100%;
+text-align: center;
+Letter-spacing: 3%;
+}
+.equipo{
+width:100%;
+height: auto;
+display: flex;
+border-radius: 10px;
+}
+.color-equipo{
+width: 270px;
+height: 368px;
+display: flex;
+flex-direction: column;
+background-color: #FFFFFF;
+border-radius: 5px;
+}
+.color-equipo >img{
+width: 100%;
+height: auto;
+}
+
+.nombre{
+margin-top: 30px;
+font-family: 'Roboto';
+font-style: medium;
+font-size: 16px;
+line-height: 19px;
+line-height: 100%;
+text-align: center;
+}
+.cargo{
+margin-top:10px ;
+margin-bottom: 30px;
+font-family: 'Roboto';
+font-style:normal;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+line-height: 100%;
+text-align: center;
+letter-spacing: 3%;
+}
+
+/*footer*/
+.footer {
+width:100%;
+height:auto;
+background-color: #2f303a;
+padding: 20px;
+}
+.contact{
+display: flex;
+justify-content: left;
+flex-direction: column;
+margin-left: 225px;
+margin-top: 30px;
+}
+.webstudio-footer{
+display: flex;
+flex-direction: block;
+align-items:center;
+padding: 10px;
+margin-top: 30px;
+margin-left:215px;
+text-transform:capitalize;
+}
+.direccion-oficina{
+width: 231px;
+height: 21px;
+margin-left: 215px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height:24px;
+line-height: 146%;
+text-align: left;
+letter-spacing: 3%;
+color: #FFFFFF;
+}
+.contactame  {
+color:rgba(255,255,255, 0.6);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+font-style: normal;
+font-size: 14px;
+}
+/********************************/
+/*Estilos pagina portafolio*/
+.botones-filtro{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top:106px;
+margin-bottom: 50px;
+padding: 10px;
+gap: 20px;
+}
+.estilos-boton{
+width: 145px;
+height: 38px;
+border-radius: 5px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+cursor: pointer;
+margin:1px;
+border-style: none;
+outline: none;
+}
+.estilos-boton:hover{
+background-color: #2196F3;
+color: #FFFFFF;
+}
+h4{
+margin-top: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+margin-left: 24px;
+}
+.lista-tarjetas{
+height: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+column-gap: 2rem;
+margin-bottom:102px ;
+}
+.lista-tarjetas p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+margin-left: 24px;
+}
+.tarjeta{
+margin-top: 60px;
+margin-bottom:82px ;
+margin-left: 75;
+margin-inline:30px ;
+width: 370px;
+height: 404px;
+display: flex;
+flex-direction: column;
+background-color: #EEEEEE;
+border-radius: 1px;
+text-align: left;
+}
+.lista-tarjeta >img{
+width: 100%;
+height: auto;
+}
