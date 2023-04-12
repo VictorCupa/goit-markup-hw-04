@@ -43,8 +43,7 @@ margin: 0 auto;
 .icon-secction{
     width: 64px;
     height: 64px;
-    align-items: cen;
-    fill: #030d14;
+    fill: #AFB1B8;
 }
 /*Estilos pagina index*/
 /* Header*/
@@ -63,6 +62,13 @@ padding: 15px;
  .enlaces-lista li{
     display:inline-flex;
     margin-inline: 50px;
+
+}
+.info-contact{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
 
 }
 
@@ -162,22 +168,32 @@ border: none;
 .servicios{
 width: 100%;
 height: auto;
-
+}
+.icon-cualidades{
+    width: 270px;
+    height: 120px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
 }
 .cualidades{
-border: #020f1a solid 2px;
 margin-top: 50px;
 margin-bottom: 50px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 padding: 10px;
+
 }
 .val-agregado{
-display: flex;
+display: block;
 flex-direction: column;
 justify-content: space-between;
 padding: 10px;
+
 }
 .valor-agregado {
 font-family:'roboto';
@@ -245,17 +261,30 @@ height: auto;
 background-color: #F5F4FA;
 }
 .container{
-width: auto;
-height: auto;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin-bottom: 100px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
 }
+.card-team{
+    width: 270px;
+    height: 428px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    border-bottom: 3px solid #000;
+    }
+    .card-team img{
+    width: 100%;
+    height: auto;
+    }
+    .icons-team{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
 .integrante-equipo{
 margin-top: 50px;
 margin-bottom: 50px;
-padding: 94px;
+padding: 44px;
 Font-family: 'Roboto';
 Font-style: Bold;
 Font-size: 36px;
@@ -264,24 +293,7 @@ Line-height: 100%;
 text-align: center;
 Letter-spacing: 3%;
 }
-.equipo{
-width:100%;
-height: auto;
-display: flex;
-border-radius: 10px;
-}
-.color-equipo{
-width: 270px;
-height: 368px;
-display: flex;
-flex-direction: column;
-background-color: #FFFFFF;
-border-radius: 5px;
-}
-.color-equipo >img{
-width: 100%;
-height: auto;
-}
+
 
 .nombre{
 margin-top: 30px;
@@ -304,34 +316,55 @@ line-height: 100%;
 text-align: center;
 letter-spacing: 3%;
 }
+/*seccion clientes regulares*/
+.clientesR{
+width:100%;
+height:auto;
+padding: 20px;
+}
+.icons-clientesR{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
+    align-items: center;
+}
+.clientes-regulares{
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform:capitalize;
+    }
 /*footer*/
 .footer {
 width:100%;
-height:auto;
+height:252px;
 background-color: #2f303a;
-padding: 20px;
 }
-.contact{
-display: flex;
-justify-content: left;
-flex-direction: column;
-margin-left: 225px;
-margin-top: 30px;
+.ubicacion-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
-.webstudio-footer{
-display: flex;
-flex-direction: block;
-align-items:center;
-padding: 10px;
-margin-top: 30px;
-margin-left:215px;
-text-transform:capitalize;
+.position{
+
+margin-top:60px ;
+
+}
+.redessociales-footer{
+display: block;
+flex-direction: row;
+justify-content: space-between;
+margin-right: 715px;
+margin-top: 72px;
 }
 .direccion-oficina{
-width: 231px;
-height: 21px;
-margin-left: 215px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -350,6 +383,18 @@ font-weight: 400;
 font-size: 14px;
 font-style: normal;
 font-size: 14px;
+}
+.redes-sociales{
+Font-family:'Roboto';
+Font-style: Bold;
+Font-size: 14px;
+Line-height: 16px;
+Line-height: 100%;
+text-align: Left;
+Letter-spacing: 3%;
+color:#FFFFFF;
+text-transform: uppercase;
+
 }
 /********************************/
 /*Estilos pagina portafolio*/

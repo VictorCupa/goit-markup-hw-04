@@ -19,6 +19,7 @@
     <header class="header">
       <!--contiene la navegacion principal de la pagina-->
       <nav class="navegacion-principal">
+        
         <ul class="enlaces-lista list">
           <li>
           <a class="webstudio link" href="./index.html" rel="noreferrer noopener">Webstudio</a></li>
@@ -27,16 +28,23 @@
           <li><a class="link" href="./index.html" rel="noreferrer noopener">Contactos</a></li>
         </ul>
         <!--contiene el correo y el numero de contacto-->
-        <ul class="list enlaces-lista">
+        <ul class="list  info-contact">
+          <div><!--icono-email-->
+          <svg width="20px" height="20px">
+            <use href="./css/icon.svg#icon-IconoEmail"></use>
+          </svg>
+        </div> <!--cierra iconoemail-->
           <li>
-            <div>
-              <a class="link" href="mailto:info@devstudio.com">info@devstudio.com<a></a>
-          </div>
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
+          <div>
+          <!--iconotelefono-->
+          <svg class="icon-section" width="20px" height="20px">
+            <use href="./css/icon.svg#icon-IconoTelefono"></use>
+          </svg>
+        </div> <!--cierra iconotelefono-->
           <li>
-            <div>
               <a class="link" href="tel:+525555296000">+525555296000</a>
-            </div>
           </li>
         </ul>
       
@@ -107,7 +115,9 @@
     </main><!--cierar el menu principal de la pagina portafolio-->
     <!-------------------------------------------------------------------------------->
     <footer class="footer">
-      <a class="webstudio link webstudio-footer" href="index.html">webstudio</a>
+      <div class="ubicacion-footer">
+      <div class="info-footer position  ">
+      <a class="webstudio link " href="index.html">webstudio</a>
       <address class="address">
         <p class="direccion-oficina">Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
         <ul class="contact list">
@@ -115,6 +125,24 @@
           <li><a class="contactame link" href="tel:+525555296000">+525555296000</a></li>
         </ul>
       </address>
+    </div>
+      <div class="redessociales-footer">
+        <h4 class="redes-sociales">encuentranos en</h4>
+        <div class="icon-footer">
+        <svg class="icon-section" width="20px" height="16px">
+          <use href="./css/icon.svg#icon-IconoInstagram"></use>
+        </svg>
+        <svg class="icon-section" width="20px" height="16px">
+          <use href="./css/icon.svg#icon-IconoTwitter"></use>
+        </svg>
+        <svg class="icon-section" width="20px" height="16px">
+          <use href="./css/icon.svg#icon-Icono_facebook"></use>
+        </svg>
+        <svg class="icon-section" width="20px" height="16px">
+          <use href="./css/icon.svg#icon-IconoLinkedin"></use>
+        </svg>
+        </div>
+      </div>
     </footer><!-- cierra el menu footer de la pagina-->
     <!-------------------------------------------------------------------------------->
   </body>
