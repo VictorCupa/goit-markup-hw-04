@@ -44,9 +44,9 @@ margin: 0 auto;
     border
 } */
 .icon-section{
-    width:100%;
+    width:60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .icon-section{
     cursor: pointer;
@@ -57,6 +57,9 @@ margin: 0 auto;
 .icon-section:hover {
     fill: #2196f3;
 }
+.icon-border{
+    border: 1px solid #AFB1B8;
+}
 .icon-section:hover {
     border: 1px solid #2196f3;
 }
@@ -66,25 +69,29 @@ margin: 0 auto;
 width: 100%;
 height: 80px;
 border-bottom: 1px solid #ECECEC;
-padding: 15px;
+
 }
 .navegacion-principal{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-evenly;
-    align-items:baseline;
+display:flex;
+flex-direction:row;
+justify-content: space-evenly;
+align-items: center;
+padding: 20px;
 }
- .enlaces-lista li{
-    display:inline-flex;
-    margin-inline: 50px;
-
-}
-.info-contact{
+.link-list{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+.icon-list{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
     margin: 10px;
-
 }
 
 .webstudio{
@@ -353,19 +360,18 @@ color: #757575;
 width:100%;
 height:372px;
 display:flex;
-    gap: 50px;
-    flex-direction:column;
+gap: 50px;
+flex-direction:column;
 justify-content: center;
 }
 .contenedor-icons{
     width: 1200px;
     display: flex;
-    gap: 50px;
     flex-direction:row;
     justify-content: space-between;
+    gap: 50px;
 
 }
-
 .clientes-regulares{
     align-items: center;
     margin-top: 10px;
@@ -377,6 +383,7 @@ justify-content: center;
     line-height: 42px;
     text-align: center;
     text-transform:capitalize;
+    margin-bottom: 100px;
     }
 /*footer*/
 .footer {
@@ -384,50 +391,50 @@ width:100%;
 height:252px;
 background-color: #2f303a;
 display: flex;
-justify-content:space-around;
-}
-.ubicacion-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+flex-direction: row;
+justify-content:left;
+align-items: center;
+gap: 50px;
 }
 .info-footer{
     display: block;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:center;
+    margin-left: 250px;
 }
 .redessociales-footer{
-    display: block;
-    flex-direction:row;
-    justify-content:space-between;
-
-    }
+display: block;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
 .icon-footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-.icons-footer{
-    width:100%;
-    background-color: #b80698;
+.redes-sociales .icons-footer{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 .icons-footer{
     cursor: pointer;
 }
 .icons-footer {
-    fill: #AFB1B8;
+    fill: #fff;
 }
 .icons-footer:hover {
     fill: #2196f3;
 }
 .icons-footer:hover {
-    border-radius: 1px solid #2196f3;
-    
+    border: 1px solid #2196f3;
 
 }
-
-
 .direccion-oficina{
 font-family: 'Roboto';
 font-style: normal;
@@ -458,6 +465,8 @@ text-align:Left;
 Letter-spacing: 3%;
 color:#FFFFFF;
 text-transform: uppercase;
+margin-bottom: 30px;
+
 
 }
 /********************************/
