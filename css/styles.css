@@ -40,10 +40,25 @@ max-width:1200px;
 margin: 0 auto;
 }
 /*estilos generales para los iconos de la pagina*/
-.icon-secction{
-    width: 64px;
-    height: 64px;
+/* .icon-section{
+    border
+} */
+.icon-section{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.icon-section{
+    cursor: pointer;
+}
+.icon-section  {
     fill: #AFB1B8;
+}
+.icon-section:hover {
+    fill: #2196f3;
+}
+.icon-section:hover {
+    border: 1px solid #2196f3;
 }
 /*Estilos pagina index*/
 /* Header*/
@@ -213,6 +228,12 @@ line-height: 1.7;
 text-align:left;
 color: #757575;
 }
+/*seccion a que nos dedicamos*/
+.servicios-ofrecidos{
+width: 100%;
+height: auto;
+padding:10px ;
+}
 .titulo-servicio{
 align-items: center;
 margin-top: 30px;
@@ -257,8 +278,20 @@ margin-bottom: 50px;
 /*Nuestro equippo*/
 .nuestro-equipo{
 width: 100%;
-height: auto;
+height: 708px;
 background-color: #F5F4FA;
+display: flex;
+    gap: 50px;
+    flex-direction: column;
+justify-content: center;
+}
+.contenedor-team{
+    width: 1200px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+justify-content: space-between;
+
 }
 .container{
     display:flex;
@@ -268,7 +301,7 @@ background-color: #F5F4FA;
 .card-team{
     width: 270px;
     height: 428px;
-    margin-bottom: 50px;
+
     background-color: #fff;
     border-bottom: 3px solid #000;
     }
@@ -282,9 +315,7 @@ background-color: #F5F4FA;
         justify-content:space-evenly;
     }
 .integrante-equipo{
-margin-top: 50px;
-margin-bottom: 50px;
-padding: 44px;
+
 Font-family: 'Roboto';
 Font-style: Bold;
 Font-size: 36px;
@@ -315,20 +346,26 @@ line-height: 19px;
 line-height: 100%;
 text-align: center;
 letter-spacing: 3%;
+color: #757575;
 }
 /*seccion clientes regulares*/
 .clientesR{
 width:100%;
-height:auto;
-padding: 20px;
+height:372px;
+display:flex;
+    gap: 50px;
+    flex-direction:column;
+justify-content: center;
 }
-.icons-clientesR{
+.contenedor-icons{
+    width: 1200px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    gap: 50px;
+    flex-direction:row;
+    justify-content: space-between;
 
-    align-items: center;
 }
+
 .clientes-regulares{
     align-items: center;
     margin-top: 10px;
@@ -346,24 +383,51 @@ padding: 20px;
 width:100%;
 height:252px;
 background-color: #2f303a;
+display: flex;
+justify-content:space-around;
 }
 .ubicacion-footer{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
+    align-items: center;
 }
-.position{
-
-margin-top:60px ;
-
+.info-footer{
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .redessociales-footer{
-display: block;
-flex-direction: row;
-justify-content: space-between;
-margin-right: 715px;
-margin-top: 72px;
+    display: block;
+    flex-direction:row;
+    justify-content:space-between;
+
+    }
+.icon-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+.icons-footer{
+    width:100%;
+    background-color: #b80698;
+}
+.icons-footer{
+    cursor: pointer;
+}
+.icons-footer {
+    fill: #AFB1B8;
+}
+.icons-footer:hover {
+    fill: #2196f3;
+}
+.icons-footer:hover {
+    border-radius: 1px solid #2196f3;
+    
+
+}
+
+
 .direccion-oficina{
 font-family: 'Roboto';
 font-style: normal;
@@ -390,7 +454,7 @@ Font-style: Bold;
 Font-size: 14px;
 Line-height: 16px;
 Line-height: 100%;
-text-align: Left;
+text-align:Left;
 Letter-spacing: 3%;
 color:#FFFFFF;
 text-transform: uppercase;

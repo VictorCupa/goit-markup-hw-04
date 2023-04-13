@@ -31,7 +31,7 @@
         <!--contiene el correo y el numero de contacto-->
         <ul class="list  info-contact">
           <div><!--icono-email-->
-          <svg width="20px" height="20px">
+          <svg class="icon-section" width="20px" height="20px">
             <use href="./css/icon.svg#icon-IconoEmail"></use>
           </svg>
         </div> <!--cierra iconoemail-->
@@ -63,7 +63,7 @@
         
       </section>
       <!-------------------------------------------------------------------------------------------------->
-      <!--seccion servicios ofrecidos-->
+      <!--seccion servicios -->
     <main class="menu-principal" >
       <section class="servicios ">
         <div class="contenedor">
@@ -125,9 +125,10 @@
             </p>
           </li>
             </div>
-        </ul><!--cierra seccion servicios-->
+        </ul>
       </div>
-      <!--A qué nos dedicamos-->
+      </section><!--cierra seccion servicios-->
+      <section class="servicios-ofrecidos"><!--A qué nos dedicamos-->
       <div class="productos contenedor">
         <h2 class="titulo-servicio" >A qué nos dedicamos</h2>
         <ul class="imagen-producto list">
@@ -154,7 +155,8 @@
       </section>
       <!------------------------------------------------------------------------------------------------>
       <!-----nuestro equipo---->
-      <section class="nuestro-equipo  contenedor">
+      <section class="nuestro-equipo  ">
+        <div class="contenedor contenedor-team">
           <h2 class="integrante-equipo" >Nuestro Equipo</h2>
           <ul class=" container list ">
             <div class="card-team"><!--andres cubo-->
@@ -238,11 +240,13 @@
             </div>
           </div>
           </ul>
+        </div>
       </section><!--cierra seccion nuestro equipo-->
     <!--------------------------------------------------------------------------------->
-      <section class="contenedor clientesR"><!--abre section clientes regulares-->
+      <section class=" clientesR"><!--abre section clientes regulares-->
+        <div class="contenedor ">
         <h2 class="clientes-regulares">clientes regulares</h2>
-        <div class="icons-clientesR">
+        <div class="contenedor-icons">
           <svg class="icon-section" width="41px" height="47px">
             <use href="./css/icon.svg#icon-IconoYACO"></use>
           </svg>
@@ -261,38 +265,39 @@
           <svg class="icon-section" width="41px" height="47px">
             <use href="./css/icon.svg#icon-Icono_company"></use>
           </svg>
-        </div>
+      </div>
       </section> <!--cierra section clientes regulares-->
     </main>
     <!-- cierra el menu principal de la pagina-->
     <!---------------------------------------------------------------------------------------------------->
     <footer class="footer">
       <div class="ubicacion-footer">
-      <div class="info-footer position  ">
-      <a class="webstudio link " href="index.html">webstudio</a>
-      <address class="address">
-        <p class="direccion-oficina">Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-        <ul class="contact list">
-          <li><a class="contactame link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="contactame link" href="tel:+525555296000">+525555296000</a></li>
-        </ul>
-      </address>
-    </div>
-      <div class="redessociales-footer">
-        <h4 class="redes-sociales">encuentranos en</h4>
-        <div class="icon-footer">
-        <svg class="icon-section" width="20px" height="16px">
-          <use href="./css/icon.svg#icon-IconoInstagram"></use>
-        </svg>
-        <svg class="icon-section" width="20px" height="16px">
-          <use href="./css/icon.svg#icon-IconoTwitter"></use>
-        </svg>
-        <svg class="icon-section" width="20px" height="16px">
-          <use href="./css/icon.svg#icon-Icono_facebook"></use>
-        </svg>
-        <svg class="icon-section" width="20px" height="16px">
-          <use href="./css/icon.svg#icon-IconoLinkedin"></use>
-        </svg>
+        <div class="info-footer ">
+          <a class="webstudio link " href="index.html">webstudio</a>
+          <address class="address">
+            <p class="direccion-oficina">Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
+            <ul class="contact list">
+              <li><a class="contactame link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li><a class="contactame link" href="tel:+525555296000">+525555296000</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="redessociales-footer">
+          <h5 class="redes-sociales">encuentranos en</h5>
+          <div class="icon-footer">
+            <svg class="icons-footer" width="20px" height="16px">
+              <use href="./css/icon.svg#icon-IconoInstagram"></use>
+            </svg>
+            <svg class="icons-footer" width="20px" height="16px">
+              <use href="./css/icon.svg#icon-IconoTwitter"></use>
+            </svg>
+            <svg class="icons-footer" width="20px" height="16px">
+              <use href="./css/icon.svg#icon-Icono_facebook"></use>
+            </svg>
+            <svg class="icons-footer" width="20px" height="16px">
+              <use href="./css/icon.svg#icon-IconoLinkedin"></use>
+            </svg>
+          </div>
         </div>
       </div>
     </footer><!-- cierra el menu footer de la pagina-->
